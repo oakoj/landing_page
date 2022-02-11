@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Furby Landing Page</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="C:\Users\Jo\Documents\Responsive Web Design\Landing_Page\CSS\style.css">
+  <header id="header" class="flex-container">
+    <img id="header-img" src="https://logowik.com/content/uploads/images/296_hasbro.jpg" alt="Vectorized Hasbro logo">
+      <nav  id="nav-bar">
+        <a class="nav-link" href="#video">Video</a> |
+        <a class="nav-link" href="#form">Form</a> |
+        <a class="nav-link" href="#contact-us">Contact Us</a>
+      </nav>
+  </header>
+  <body class="flex-container">
+    <div>
+      <iframe id="video" width="420" height="315" src="https://www.youtube.com/embed/oVAqOq82V2Y">
+      </iframe>
+    </div>
+    <div id="filler">
+      <h1>Lorem Ipsum</h1>
+        <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+        "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique tortor ante, vel consequat nibh rhoncus vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris varius augue a blandit commodo. Quisque ut venenatis lorem. In quis rutrum nulla. Donec hendrerit tempor neque vitae fermentum. Nullam viverra viverra ligula vel porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin urna elit, maximus ac magna vitae, vestibulum rutrum diam. Praesent sit amet nulla id orci blandit congue. Sed laoreet eros ut enim malesuada lobortis. Praesent sodales consequat eros, ac aliquet purus hendrerit id. Pellentesque porta pretium mauris, vitae pulvinar enim sollicitudin sed. Integer mi elit, elementum ac cursus vitae, mollis ut lorem.
+
+        Cras hendrerit ex odio, nec aliquet leo tempor at. Quisque eu lorem at enim gravida facilisis. Nulla auctor varius diam eu aliquet. Quisque non augue posuere, volutpat risus non, vulputate nunc. Nunc scelerisque ipsum metus, sit amet dictum leo porta non. Aliquam elit sapien, consequat a pretium a, interdum sit amet risus. Nulla non fringilla libero. Morbi luctus enim enim, quis tempus nibh vestibulum at. Etiam tincidunt gravida leo, sodales maximus nunc varius in.
+
+        Praesent non sapien aliquet, porta magna eget, semper ipsum. Suspendisse a augue quis tellus dignissim porttitor. Suspendisse ante sem, mollis sit amet condimentum vulputate, egestas quis velit. Mauris vitae accumsan tortor. In ultrices mattis ipsum eget cursus. Morbi placerat gravida ipsum, non blandit felis. Integer diam sem, imperdiet eu nunc nec, lacinia volutpat augue. Aliquam pretium tellus at nulla placerat, non ultricies justo maximus. Cras dapibus malesuada tortor, quis scelerisque diam ultrices rutrum. Praesent vel dolor erat. Vivamus et posuere ex. In ac vehicula arcu, in laoreet augue. Sed sed elementum mi, in gravida augue. Donec efficitur elementum auctor. Cras commodo euismod risus ac volutpat.
+
+        Morbi semper tellus id libero euismod, in malesuada dolor rutrum. Cras erat mi, pulvinar quis massa fermentum, laoreet commodo odio. Nullam et massa suscipit mi ultrices malesuada. Sed gravida, nulla in semper faucibus, urna enim scelerisque ex, non volutpat neque est eu dui. Aenean nec urna ac dui egestas faucibus ut non est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed lacinia velit ac tortor tincidunt, non accumsan tellus ultricies. Pellentesque laoreet sem non semper bibendum. Cras non ante magna. Sed condimentum cursus nibh vel pulvinar. In vel ante efficitur, aliquam justo at, pulvinar velit. Quisque sed posuere ante. Duis a lectus ut felis congue tincidunt. Aliquam hendrerit, urna ac aliquam convallis, purus urna consequat quam, a egestas dolor nisi porta metus. Aenean lacus est, tempor non mattis eu, vestibulum id velit.
+
+        Aliquam convallis imperdiet arcu, sit amet maximus dolor efficitur id. Fusce lorem ante, malesuada ac volutpat sit amet, volutpat ut neque. Mauris non ligula est. Curabitur egestas augue sit amet nisi imperdiet dignissim. Suspendisse sit amet quam tortor. Curabitur at ante quis justo pellentesque tincidunt. Aenean leo tortor, placerat in rutrum ut, cursus id dolor. Proin dapibus nec augue in iaculis.</p>
+    </div>
+    <div>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <div>
+          <label id="email-label" for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your Email" size="30">
+        </div>
+        <div>
+          <input type="submit" id="submit" value="Submit" />
+        </div>
+    <div class="">
+      <h1 id="contact-us">Contact Us</h1>
+       <p>Feel free to reach us by the following methods:</p>
+       <p>Email: HasbroBrandPR@hasbro.com</p>
+       <p>Phone: 1-(234)-567-8910</p>
+    </div>
+  </body>
+<style>
+  @media screen and (max-width: 900px) {
+      body {
+        margin: 0 auto;
+        background-color: #dd222b;
+        overflow-x: hidden !important;
+        }
+      p {
+        font-size: 2vw;
+      }
+      #header-img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        }
+      .flex-container {
+          max-width: 100% !important;
+          overflow-x: hidden !important;
+      }
+    }
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+</style>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
